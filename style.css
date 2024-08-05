@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    height: 400px;
+    width: 400px;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5%;
+}
+
+input{outline: none;
+height: 25px;
+}
+
+
+button{
+    padding: 5px;
+    background-color: white;
+    
+}
