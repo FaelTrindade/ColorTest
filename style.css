@@ -18,9 +18,13 @@ body{
     border: 2px black solid;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     gap: 5px;
     border-radius: 5%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 input{outline: none;
@@ -32,4 +36,11 @@ button{
     padding: 5px;
     background-color: white;
     
+}
+
+.colorField{
+    margin-right:10px ;
+    width: 100px;
+    height: 70px;
+     
 }
